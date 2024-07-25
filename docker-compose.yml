@@ -19,8 +19,7 @@ services:
     build:
       context: ./platform
       target: prod
-    ports:
-      - "8001:8000"
+    
     restart: always
     volumes:
       - ./platform:/app/src/
